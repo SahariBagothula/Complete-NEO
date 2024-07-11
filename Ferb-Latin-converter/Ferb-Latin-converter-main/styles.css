@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --primary-color: #bbf7d0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+     background-color: var(--primary-color);  
+}
+
+ nav {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+} 
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+textarea {
+    display: block;
+    font-size: larger;
+    width: 100%;
+    min-height: 15vh;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#txt-output {
+    display: block;
+    font-size: larger;
+    width: 100%;
+    min-height: 15vh;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.label {
+    font-size: larger;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    font-style: italic;
+} 
+
+footer div {
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: large;
+    max-width: 500px;
+    padding: 0.5rem;
+    margin: auto;
+}
